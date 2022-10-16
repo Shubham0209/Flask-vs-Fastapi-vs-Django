@@ -5,14 +5,17 @@
 ```console
 pip install Django
 django-admin startproject todoapp
+cd todoapp
 ```
+
+
 
 ### Start
 
 ```console
 python manage.py migrate
 python manage.py runserver
-python manage.py startapp todolist (type this command after you are in todoapp directory created by 'django-admin startproject todoapp')
+python manage.py startapp todolist 
 ```
 
 - add 'todolist' to INSTALLED_APPS in settings.py file under todoapp->todoapp
